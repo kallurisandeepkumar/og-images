@@ -3,7 +3,7 @@ import React from 'react';
 import './Post.css';
 
 const Post = ({ post }) => {
-  const shareUrl = `https://og-server-6qgqab7ft-kallurisandeepkumars-projects.vercel.app/${post.id}`;
+  const shareUrl = `https://og-server-i6e5gs42e-kallurisandeepkumars-projects.vercel.app/post${post.id}`;
 
   return (
     <div className="post">
