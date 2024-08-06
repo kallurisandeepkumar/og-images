@@ -1,0 +1,10 @@
+/* src/components/PostDetail.css */
+.post-detail {
+  text-align: center;
+  padding: 20px;
+}
+
+.post-detail img {
+  max-width: 100%;
+  height: auto;
+}

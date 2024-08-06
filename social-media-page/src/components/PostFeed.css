@@ -1,0 +1,7 @@
+/* src/components/PostFeed.css */
+.post-feed {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}

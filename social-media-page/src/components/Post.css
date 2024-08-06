@@ -1,0 +1,51 @@
+/* src/components/Post.css */
+.post {
+  border: 1px solid #dbdbdb;
+  background: #fff;
+  margin-bottom: 20px;
+  width: 500px;
+  border-radius: 3px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #dbdbdb;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
+}
+
+.username {
+  font-weight: bold;
+}
+
+.post-image {
+  width: 100%;
+  height: auto;
+}
+
+.post-content {
+  padding: 10px;
+}
+
+.share-button {
+  background: #3897f0;
+  color: white;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  border-radius: 0 0 3px 3px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.share-button:hover {
+  background: #0073e6;
+}
